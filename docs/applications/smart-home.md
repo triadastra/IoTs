@@ -24,16 +24,30 @@ Smart Home technology transforms residences into intelligent environments where 
 ## Current Status (2026)
 
 ### Market Trends
-- **Adoption** — Over 1.5 billion smart home devices installed globally
-- **Standards Convergence** — Matter protocol gaining traction for interoperability
+- **Standards convergence (Matter)** — 2025 was "an eventful year for Matter," with the
+  number of committed manufacturers continuing to grow. **Matter 1.5 (late 2025) added
+  camera support**, and professional suppliers (Busch-Jaeger/ABB, Maco, Warema) are
+  increasingly backing the standard — [matter-smarthome.de](https://matter-smarthome.de/en/development/the-matter-standard-in-2026-a-status-review/),
+  [Samsung Research](https://research.samsung.com/blog/CSA-Matter-1-5-Release-Introducing-support-for-Cameras).
+- **Price barrier falling** — **IKEA is shipping Matter-certified products for well
+  under US$10**, driving mainstream adoption — [matter-smarthome.de](https://matter-smarthome.de/en/development/the-matter-standard-2025-taking-stock/).
+- **Easier certification** — The CSA's 2025 **Portfolio** and **Fast Track** programs
+  cut the cost and time of certifying and recertifying Matter products.
 - **AI Integration** — Local AI processing for privacy and responsiveness
 - **Energy Focus** — Smart grids and demand-side management
 
+### The Connectivity Stack
+Matter runs over three radios, unifying previously fragmented ecosystems:
+- **Wi-Fi** — High-bandwidth devices (cameras, displays)
+- **Thread** — Low-power IPv6 mesh; **Thread 1.4 (Sept 2024)** lets border routers share
+  credentials, improving multi-vendor reliability — [Thread Group](https://www.threadgroup.org/)
+- **Bluetooth LE** — Device commissioning (see [Bluetooth & BLE](../protocols/bluetooth.md))
+
 ### Popular Ecosystems
-- **Amazon Alexa** — Dominant voice platform (35% market share)
-- **Google Home** — Strong second position with Nest integration
-- **Apple HomeKit** — Privacy-focused alternative (20% share)
-- **Open Standards** — Home Assistant, OpenHAB for independent deployments
+- **Amazon Alexa**, **Google Home** (Nest), and **Apple Home** remain the dominant
+  voice/control platforms, now interoperating via Matter
+- **Samsung SmartThings** — Strong Matter/Thread support
+- **Open Standards** — Home Assistant, OpenHAB for local-first, independent deployments
 
 ## Common Architectures
 
@@ -69,11 +83,11 @@ Smart Home technology transforms residences into intelligent environments where 
 
 ## References & Citations
 
-1. Gartner (2025). "Market Guide for Connected Home Platforms"
-2. IDC (2026). "Worldwide Smart Home Device Market Forecast"
-3. Statista (2025). "Smart Home Market Size and Growth Analysis"
-4. [Connectivity Standards Alliance (CSA)](https://csa-iot.org/) — Matter standard development
-5. [Home Connectivity Consortium](https://www.homeconnectivity.org/)
+1. Connectivity Standards Alliance. "Matter" — [csa-iot.org](https://csa-iot.org/all-solutions/matter/)
+2. matter-smarthome.de (2026). "The Matter Standard in 2026 – A Status Review" — [matter-smarthome.de](https://matter-smarthome.de/en/development/the-matter-standard-in-2026-a-status-review/)
+3. Samsung Research (2025). "CSA Matter 1.5 Release: Introducing support for Cameras" — [research.samsung.com](https://research.samsung.com/blog/CSA-Matter-1-5-Release-Introducing-support-for-Cameras)
+4. Thread Group. "Thread 1.4 Specification" — [threadgroup.org](https://www.threadgroup.org/)
+5. matter-smarthome.de (2025). "The Matter Standard 2025 – Taking Stock" — [matter-smarthome.de](https://matter-smarthome.de/en/development/the-matter-standard-2025-taking-stock/)
 
 ## Challenges & Considerations
 

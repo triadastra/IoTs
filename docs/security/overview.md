@@ -23,10 +23,24 @@ IoT security is one of the most critical challenges facing the industry as billi
 ## Current Status (2026)
 
 ### State of IoT Security
-- **Security Incidents** — Thousands of vulnerabilities reported annually
-- **Adoption Gap** — Many legacy devices lack modern security
-- **Standards Maturity** — Industry frameworks (NIST, IEC 62443) well-established
-- **Focus Areas** — Device authentication, secure updates, privacy preservation
+- **Botnets at record scale** — Researchers tracked **116+ distinct Mirai variant
+  branches** and a **50% increase in Mirai C2 infrastructure** in 2025. The
+  **Aisuru/TurboMirai** botnet reached **20+ Tbps** DDoS capability —
+  [Barracuda](https://blog.barracuda.com/2026/04/13/top-threat-trends-of-the-2025-botnet-landscape),
+  [Swif](https://www.swif.ai/blog/iot-security-statistics).
+- **Supply-chain compromise is mainstream** — **BadBox 2.0** pre-infected **10+
+  million devices** before sale — [Swif](https://www.swif.ai/blog/iot-security-statistics).
+- **Automation over novelty** — 2025 botnet growth was driven less by new techniques
+  than by **automated exploitation of known vulnerabilities and default credentials**.
+- **A new regulatory floor** — The EU CRA, UK PSTI, and US Cyber Trust Mark are
+  turning baseline security into a legal requirement (see below).
+
+### Major Threats in 2026
+1. **Botnet recruitment** — DDoS-for-hire from compromised IoT fleets
+2. **Supply-chain compromise** — Pre-installed malware (e.g., BadBox 2.0)
+3. **Default-credential exploitation** — Still the #1 entry point
+4. **Firmware vulnerabilities** — Unpatched, long-lived devices
+5. **Lateral movement** — IoT device as a foothold into IT networks
 
 ### Major Concerns
 1. **Legacy Device Incompatibility** — Many deployed devices cannot receive security updates
@@ -61,6 +75,17 @@ Structured approach for operational technology (OT) systems:
 9. Insecure Default Settings
 10. Lack of Physical Hardening
 
+## Regulatory Landscape (2026)
+
+A "stringent and complex era of IoT cybersecurity regulation" is now in force across
+major markets — [DeepStrike](https://deepstrike.io/blog/iot-hacking-statistics):
+
+| Regulation | Region | Key requirement |
+|------------|--------|-----------------|
+| **EU Cyber Resilience Act (CRA)** | EU | Lifecycle security + defined security-update period; adopted 2024, full enforcement expected **2027** |
+| **UK PSTI** | UK | Bans universal default passwords on consumer connectable products |
+| **US Cyber Trust Mark** | US | Voluntary security label for consumer IoT |
+
 ## Essential Security Practices
 
 ### For Device Manufacturers
@@ -86,12 +111,14 @@ Structured approach for operational technology (OT) systems:
 
 ## References & Citations
 
-1. NIST (2022). "Cybersecurity Framework Version 1.1" — National Institute of Standards and Technology
-2. International Society of Automation (2022). "IEC 62443: Industrial Automation and Control Systems Security"
-3. OWASP (2024). "Top 10 IoT Vulnerabilities" — Open Web Application Security Project
-4. Gartner (2025). "IoT Security and Privacy: Predictions and Recommendations"
-5. [IoT Security Foundation](https://www.iotsecurityfoundation.org/) — Best practices and guidelines
-6. IEEE (2024). "Recommended Practice for IoT Security"
+1. NIST. "Cybersecurity Framework 2.0" (2024) — [nist.gov/cyberframework](https://www.nist.gov/cyberframework)
+2. OWASP. "Internet of Things (IoT) Top 10" — [owasp.org](https://owasp.org/www-project-internet-of-things/)
+3. ISA/IEC 62443. "Industrial Automation and Control Systems Security" — [isa.org](https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards)
+4. Barracuda (2026). "Top threat trends of the 2025 botnet landscape" — [blog.barracuda.com](https://blog.barracuda.com/2026/04/13/top-threat-trends-of-the-2025-botnet-landscape)
+5. Swif (2026). "IoT Security Statistics: Devices, Botnets, and the New Regulatory Floor" — [swif.ai](https://www.swif.ai/blog/iot-security-statistics)
+6. DeepStrike (2025). "IoT Hacking Statistics: Threats, Risks & Regulations" — [deepstrike.io](https://deepstrike.io/blog/iot-hacking-statistics)
+7. EU. "Cyber Resilience Act (CRA)" — [digital-strategy.ec.europa.eu](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act)
+8. [IoT Security Foundation](https://www.iotsecurityfoundation.org/) — Best-practice guidelines
 
 ## Related Topics
 

@@ -22,9 +22,16 @@ Edge computing brings data processing, machine learning, and decision-making cap
 ## Current Status (2026)
 
 ### Market Growth
-- Edge computing market expected to reach $250B by 2026
-- Adoption driving by 5G rollout and real-time requirements
-- Hybrid cloud-edge architecture becoming standard
+- **Edge AI is consolidating into silicon.** The **TinyML Foundation rebranded to the
+  Edge AI Foundation** (late 2024), and chip vendors are absorbing the ML tooling
+  layer — **Qualcomm acquired Edge Impulse** and **Nordic acquired Neuton.AI** in 2025
+  — [Shawn Hymel](https://shawnhymel.com/3125/state-of-edge-ai-on-microcontrollers-in-2026/).
+- The **TinyML market reached ~$1.53B in 2025**, projected to **~$9.65B by 2035**
+  (20.2% CAGR) — [DataM Intelligence](https://www.datamintelligence.com/research-report/tinyml-market).
+- Adoption driven by 5G rollout, real-time requirements, and on-device AI inference
+  becoming a baseline MCU expectation in 2026.
+- Hybrid cloud-edge architecture is now the default pattern. See
+  [AI/ML in IoT](../trends/ai-ml-iot.md).
 
 ### Technologies
 - **Kubernetes at Edge** — Container orchestration for edge nodes
@@ -81,11 +88,11 @@ Edge computing brings data processing, machine learning, and decision-making cap
 
 ## References & Citations
 
-1. Gartner (2025). "Edge Computing Technologies and Solutions"
-2. OpenFog Consortium (2024). "Edge Computing Architecture and Frameworks"
-3. IEEE (2025). "Edge Computing for IoT: A Technical Survey"
-4. [Kubernetes at the Edge](https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/)
-5. [Linux Foundation - EdgeX Foundry](https://www.edgexfoundry.org/)
+1. Edge AI Foundation (formerly TinyML Foundation) — [edgeaifoundation.org](https://www.edgeaifoundation.org/)
+2. Shawn Hymel (2026). "State of Edge AI on Microcontrollers in 2026" — [shawnhymel.com](https://shawnhymel.com/3125/state-of-edge-ai-on-microcontrollers-in-2026/)
+3. DataM Intelligence (2025). "TinyML Market Size & Forecast 2035" — [datamintelligence.com](https://www.datamintelligence.com/research-report/tinyml-market)
+4. Linux Foundation. "EdgeX Foundry" — [edgexfoundry.org](https://www.edgexfoundry.org/)
+5. "From Tiny Machine Learning to Tiny Deep Learning: A Survey" (2025) — [arXiv 2506.18927](https://arxiv.org/pdf/2506.18927)
 
 ## Edge vs. Cloud Trade-offs
 

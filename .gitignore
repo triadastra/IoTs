@@ -1,0 +1,19 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Build / tooling output (reserved for future use)
+node_modules/
+__pycache__/
+*.py[cod]
+.env
+*.log
+
+# Generated site output (if docs are ever published via a static site generator)
+_site/
+.cache/
+dist/

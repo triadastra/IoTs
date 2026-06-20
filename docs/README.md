@@ -4,6 +4,10 @@ Welcome to the IoT Index documentation repository. This directory contains compr
 
 ## 📚 Documentation Categories
 
+### Featured
+- **[IoT History & Trends (Research Paper)](./research/iot-history-and-trends.md)** — Full survey of IoT history, companies, foundational literature, and 2024–2025 flagship products
+- **[Key Facts & Figures (2025–2026)](./key-facts.md)** — Sourced statistics reference, every figure linked to a primary source
+
 ### [Protocols](./protocols/)
 Comprehensive coverage of communication protocols used in IoT systems:
 - **[Wireless Communication](./protocols/wireless-communication.md)** — Overview of wireless IoT protocols

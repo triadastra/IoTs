@@ -53,6 +53,26 @@ Divide network into logical slices for different use cases:
 - Improved coverage and capacity
 - Better power efficiency for devices
 
+### 5G RedCap (the IoT-shaped 5G)
+**Reduced Capability (RedCap)**, standardized in 3GPP Release 17, is "5G designed for
+IoT" — a middle tier between high-end 5G and low-power NB-IoT/LTE-M, suited to
+wearables, industrial sensors, and video. Key facts:
+- **Omdia forecasts ~1 billion RedCap connections by 2030 (~20% of all cellular IoT
+  links)** — [Spenza](https://spenza.com/telecom/what-is-5g-redcap-iot-iiot-guide-2025/)
+- Commercial module/network availability peaks **late 2025–2026**
+- **Enhanced RedCap (eRedCap)** — even lower complexity — arrives in **2026**
+
+### Ambient IoT (battery-free cellular)
+3GPP **Release 19/20** is standardizing **Ambient IoT**: energy-harvesting and
+backscatter devices that connect with **no battery**, extending NB-IoT/LTE-M/RedCap
+toward zero-energy sensing and asset tags — [arXiv 2511.09372](https://arxiv.org/pdf/2511.09372).
+See [Sustainability](./sustainability.md).
+
+### The Cellular IoT Reality Check
+Growth is real but cooling: **cellular IoT connections grew ~13% in 2025 — the
+slowest pace since 2020** — reaching roughly **5.4 billion connections in 2026**
+([IoT Analytics](https://iot-analytics.com/cellular-iot-market-update-spring-2026/)).
+
 ## Use Cases Enabled by 5G
 
 ### Real-Time Industrial Control
@@ -123,12 +143,12 @@ Divide network into logical slices for different use cases:
 
 ## References & Citations
 
-1. 3GPP (2025). "5G Technical Specifications" — Official standards
-2. Qualcomm (2025). "5G: Enabling the Future of IoT"
-3. Gartner (2025). "5G for Enterprise: Predictions and Use Cases"
-4. ITU (2024). "IMT-2030: Framework and Overall Objectives of the Future Development of IMT for 2030 and beyond"
-5. [5G.co.uk](https://www.5g.co.uk/) — Industry news and technical analysis
-6. [GSMA Intelligence](https://www.gsmaintelligence.com/) — Market research and forecasts
+1. 3GPP. "Releases 17–20" (RedCap, eRedCap, Ambient IoT) — [3gpp.org](https://www.3gpp.org/specifications-technologies/releases)
+2. Spenza (2025). "What is 5G RedCap? A Guide for IoT & IIoT" — [spenza.com](https://spenza.com/telecom/what-is-5g-redcap-iot-iiot-guide-2025/)
+3. Spenza (2026). "NB-IoT vs LTE-M vs 5G RedCap: IoT Connectivity Guide" — [spenza.com](https://spenza.com/esim/nb-iot-vs-lte-m-vs-5g-redcap/)
+4. IoT Analytics (2026). "Cellular IoT market update spring 2026" — [iot-analytics.com](https://iot-analytics.com/cellular-iot-market-update-spring-2026/)
+5. "Generation-Agnostic Zero-Energy Devices…" (2025) — [arXiv 2511.09372](https://arxiv.org/pdf/2511.09372)
+6. ITU. "IMT-2030 (6G) Framework" — [itu.int](https://www.itu.int/)
 
 ## Related Topics
 
